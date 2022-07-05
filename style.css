@@ -1,0 +1,127 @@
+:root {
+    --theme1-main-background: hsl(222, 26%, 31%);
+    --theme1-toggle-background: hsl(223, 31%, 20%);
+    --theme1-screen-background: hsl(224, 36%, 15%);
+    --theme1keys-background: hsl(225, 21%, 49%);
+    --theme1keys-keyShadow: hsl(224, 28%, 35%);
+    --theme1keys-Red-key-background-toggle: hsl(6, 63%, 50%);
+    --theme1keys-Dark-red-key-shadow: hsl(6, 70%, 34%);
+    --theme1keys-Light-grayish-orange-key-background: hsl(30, 25%, 89%);
+    --theme1key-Grayish-orange-key-shadow: hsl(28, 16%, 65%);
+    --theme1text-grayish-blue: hsl(221, 14%, 31%);
+    --theme1text-White: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: var(--theme1-main-background);
+}
+
+main {
+    display: grid;
+    place-content: center;
+    margin: 10% auto;
+}
+
+.calheader {
+    color: var(--theme1text-White);
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    row-gap: 4px;
+}
+
+.calscreen {
+    width: 50vh;
+    height: 10vh;
+    background: var(--theme1-screen-background);
+    border-radius: 5px;
+}
+
+.calswitch {
+    grid-column: 3;
+}
+
+input[type='checkbox'] {
+    border-radius: 50%;
+    border: none;
+}
+
+.value {
+    text-align: right;
+    padding: 15px;
+    align-items: baseline;
+    color: var(--theme1text-White);
+    font-size: x-large;
+}
+
+.calkey {
+    margin-top: 10px;
+    background: var(--theme1-toggle-background);
+    border-radius: 5px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: var(--theme1text-grayish-blue);
+    font-weight: 600;
+    font-size: large;
+}
+
+input:hover {
+    box-shadow: 1px 3px 2px var(--theme1key-Grayish-orange-key-shadow);
+}
+
+input[value='='] {
+    background: var(--theme1keys-Red-key-background-toggle);
+}
+
+input[type='button'] {
+    box-shadow: var(--theme1keys-Light-grayish-orange-key-background);
+    box-shadow: 1px 3px 2px var(--theme1key-Grayish-orange-key-shadow);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.btnclass {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+
+input[value='DEL'],
+input[value='RESET'] {
+    background: var(--theme1keys-background);
+    color: var(--theme1text-White);
+    box-shadow: 1px 3px 2px var(--theme1keys-keyShadow)
+}
+
+input[type='reset'] {
+    grid-column: 1/3;
+}
+
+input[type='submit'] {
+    grid-column: 3/5;
+    box-shadow: 1px 3px 2px var(--theme1keys-Dark-red-key-shadow);
+}
+
+input[type='submit']:hover {
+    grid-column: 3/5;
+    box-shadow: 1px 3px 2px var(--theme1keys-Red-key-background-toggle);
+    cursor: pointer;
+}
