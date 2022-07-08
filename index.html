@@ -18,52 +18,54 @@
             <div class="calheader">
                 <span class="calname">Calc</span>
                 <div class="calswitch"><small>theme 
-                <span>
-                  <input type="radio" name="" id="">
-                  <input type="radio" name="" id="">
-                  <input type="radio" name="" id="">
-                </span>
-              </div>
-            </div>
-            <div class="calscreen">
-                <div class="caldisplay">
-                    <p class="value">399,981</p>
+                <span class="switches">
+                  <input type="radio" name="theme" id="" autocomplete="off" for="theme1" >
+                  <input type="radio" name="theme" id="" autocomplete="off" for="theme2">
+                  <input type="radio" name="theme" id="" autocomplete="off" for="theme3">
+                </span></small>
                 </div>
             </div>
-            <div class="calkey">
-             <form action="">
-              <div class="btnclass">
-                <input type="button" value="7">
-                <input type="button" value="8">
-                <input type="button" value="9">
-                <input type="button" value="DEL">
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="6">
-                <input type="button" value="+">
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="-">
-                <input type="button" value=".">
-                <input type="button" value="0">
-                <input type="button" value="/">
-                <input type="button" value="x">
-                <input type="reset" value="RESET">
-                <input type="submit" value="=">
-              </div>
-             </form>
+            <form class="form" onsubmit="submit(e) ">
+                <div class="calscreen">
+
+                    <div class="caldisplay">
+                        <div class="valuecontainer">
+                            <input type="text" name="value" id="value" class="value">
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calkey">
+
+                    <div class="btnclass">
+                        <input type="button" id='seven' value="7" onclick='numbers([7])'>
+                        <input type="button" id='eight' value="8" onclick='numbers([8])'>
+                        <input type="button" id='nine' value="9" onclick='numbers([9])'>
+                        <input type="button" id='DEL' value="DEL">
+                        <input type="button" id='four' value="4" onclick='numbers([4])'>
+                        <input type="button" id='five' value="5" onclick='numbers([5])'>
+                        <input type="button" id='six' value="6" onclick='numbers([6])'>
+                        <input type="button" id='add' value="+" onclick="operators('+')">
+                        <input type="button" id='one' value="1" onclick='numbers([1])'>
+                        <input type="button" id='two' value="2" onclick='numbers([2])'>
+                        <input type="button" id='three' value="3" onclick='numbers([3])'>
+                        <input type="button" id='sub' value="-" onclick="operators('-')">
+                        <input type="button" id='period' value="." onclick="numbers('.')">
+                        <input type="button" id='zero' value="0" onclick='numbers([0])'>
+                        <input type="button" id='div' value="/" onclick="operators('/')">
+                        <input type="button" id='times' value="*" onclick="operators('*')">
+                        <input type="reset" id='RESET' value="RESET">
+                        <input type="button" id='submit' value="=" class='submit'>
+                    </div>
+            </form>
             </div>
         </section>
     </main>
 
 
-
-
-
-
     <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Peter Samuel</a>.
     </div>
     <script src="index.js"></script>
 </body>
