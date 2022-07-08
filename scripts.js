@@ -40,9 +40,7 @@ try {
         console.log(result);
 
         userInt.value = result;
-
     })
-
 
 } catch (error) {
     console.log(`oops internal server error`, error);
