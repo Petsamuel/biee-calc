@@ -76,7 +76,7 @@ body {
 main {
     display: flex;
     place-content: center;
-    margin: 10%;
+    margin-top: 5%;
     Justify-content: center;
 }
 
@@ -86,6 +86,7 @@ main {
 
 section {
     position: relative;
+    margin: 5%;
 }
 
 .numberings {
@@ -296,5 +297,9 @@ input[id='submit']:hover {
         grid-column: 3/5;
         cursor: pointer;
         background: var(--theme-keys-Red-key-background-toggle2);
+    }
+    input[value='DEL']:hover,
+    input[value='RESET']:hover {
+        background-color: var(--hover2)
     }
 }
