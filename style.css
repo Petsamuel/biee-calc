@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan');
 :root {
     --theme1text-White: hsl(0, 0%, 100%);
-    --font: 'League+Spartan'
+    --font: 'League+Spartan';
 }
 
 [data-theme='theme1'] {
@@ -80,7 +80,7 @@ section {
 main {
     display: grid;
     place-content: center;
-    margin: 10% auto;
+    margin: 10%;
 }
 
 .calheader {
