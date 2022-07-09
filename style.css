@@ -201,7 +201,7 @@ input[id='submit']:hover {
     background: var(--theme-keys-Red-key-background-toggle2);
 }
 
-@media screen and (max-width:385px) {
+@media screen and (max-width:415px) {
     .btnclass {
         padding: 25px;
         display: grid;
