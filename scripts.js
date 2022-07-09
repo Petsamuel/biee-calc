@@ -17,7 +17,26 @@ var DIVIDE = document.querySelector('#div');
 var reset = document.querySelector('#times');
 var Reset = document.querySelector('#RESET');
 var equals = document.querySelector('.submit')
+var theme1 = document.querySelector('#theme1')
+var theme2 = document.querySelector('#theme2')
+var theme3 = document.querySelector('#theme3')
 let firstNum = '';
+
+theme1.addEventListener('click', () => {
+    document.querySelector('body')
+        .setAttribute('data-theme', 'theme1')
+
+
+
+})
+theme2.addEventListener('click', () => {
+    document.querySelector('body')
+        .setAttribute('data-theme', 'theme2')
+})
+theme3.addEventListener('click', () => {
+    document.querySelector('body')
+        .setAttribute('data-theme', 'theme3')
+})
 
 try {
 
@@ -41,7 +60,6 @@ try {
 
         userInt.value = result;
     })
-
 } catch (error) {
     console.log(`oops internal server error`, error);
 }

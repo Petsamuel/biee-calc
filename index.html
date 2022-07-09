@@ -5,23 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
+    <!-- <meta http-equiv="refresh" content="0; url=http://petsamuel.github.io/calculator"> -->
+    <meta name="keywords" content="html, css, javascripts, frontendmentor, bieefilled, peter samuel, eval, opensource">
+    <meta name="description" content="basic html, css calculator designed by coded by peter  samuel">
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
     <title>Frontend Mentor | Calculator app</title>
 </head>
 
-<body>
+<body data-theme='theme1'>
 
     <main>
         <section>
             <div class="calheader">
-                <span class="calname">Calc</span>
-                <div class="calswitch"><small>theme 
+
+                <span class="calname">calc</span>
+
+                <div class="calswitch"><small>THEME
+                    
+
                 <span class="switches">
-                  <input type="radio" name="theme" id="" autocomplete="off" for="theme1" >
-                  <input type="radio" name="theme" id="" autocomplete="off" for="theme2">
-                  <input type="radio" name="theme" id="" autocomplete="off" for="theme3">
+                    
+                  <input type="radio" name="theme" id="theme1" autocomplete="off" for="theme1" checked>
+                  <input type="radio" name="theme" id="theme2" autocomplete="off" for="theme2">
+                  <input type="radio" name="theme" id="theme3" autocomplete="off" for="theme3">
                 </span></small>
                 </div>
             </div>
@@ -31,7 +39,7 @@
                     <div class="caldisplay">
                         <div class="valuecontainer">
                             <input type="text" name="value" id="value" class="value">
-                           
+
                         </div>
                     </div>
                 </div>
@@ -54,7 +62,7 @@
                         <input type="button" id='period' value="." onclick="numbers('.')">
                         <input type="button" id='zero' value="0" onclick='numbers([0])'>
                         <input type="button" id='div' value="/" onclick="operators('/')">
-                        <input type="button" id='times' value="*" onclick="operators('*')">
+                        <input type="button" id='times' value="x" onclick="operators('*')">
                         <input type="reset" id='RESET' value="RESET">
                         <input type="button" id='submit' value="=" class='submit'>
                     </div>
@@ -64,9 +72,7 @@
     </main>
 
 
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Peter Samuel</a>.
-    </div>
+
     <script src="scripts.js"></script>
 </body>
 
