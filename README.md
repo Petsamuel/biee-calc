@@ -1,22 +1,22 @@
 
 </div> 
 
-<h1 align="center">FrontendChallenge</h1>
+<h1 align="center">Calculator </h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{Petsamuel}}/frontendchallenge?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{Petsamuel}}/calculator?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{Petsamuel}}/frontendchallenge?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{Petsamuel}}/calculator?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{Petsamuel}}/frontendchallenge?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{Petsamuel}}/calculator?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{Petsamuel}}/frontendchallenge?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/{{Petsamuel}}/calculator?color=56BEB8">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/{{Petsamuel}}/frontendchallenge?color=56BEB8" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/{{Petsamuel}}/calculator?color=56BEB8" />
 
-<img alt="Github forks" src="https://img.shields.io/github/forks/{{Petsamuel}}/frontendchallenge?color=56BEB8" /> 
+<img alt="Github forks" src="https://img.shields.io/github/forks/{{Petsamuel}}/calculator?color=56BEB8" /> 
 
- <img alt="Github stars" src="https://img.shields.io/github/stars/{{Petsamuel}}/frontendchallenge?color=56BEB8" />
+ <img alt="Github stars" src="https://img.shields.io/github/stars/{{Petsamuel}}/calculator?color=56BEB8" />
 </p>
 
 <!-- Status -->
