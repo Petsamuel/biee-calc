@@ -82,6 +82,7 @@ main {
 
 .calname {
     font-family: var(--font);
+    align-self: end;
 }
 
 section {
