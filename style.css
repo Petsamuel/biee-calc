@@ -73,14 +73,24 @@ body {
     font-family: var(--font);
 }
 
+main {
+    display: grid;
+    place-content: center;
+    margin: 10%;
+}
+
 section {
     position: relative;
 }
 
-main {
-    display: grid;
-    place-content: center;
-    margin: 10% auto;
+.numberings {
+    display: flex;
+    justify-content: right;
+}
+
+.numberings>span {
+    padding-left: 8px;
+    padding-right: 9px;
 }
 
 .calheader {
@@ -201,7 +211,7 @@ input[id='submit']:hover {
     background: var(--theme-keys-Red-key-background-toggle2);
 }
 
-@media screen and (max-width:385px) {
+@media screen and (max-width:414px) {
     .btnclass {
         padding: 25px;
         display: grid;
