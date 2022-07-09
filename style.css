@@ -78,9 +78,10 @@ section {
 }
 
 main {
-    display: grid;
+    display: flex;
     place-content: center;
     margin: 10%;
+Justify-content:center;
 }
 
 .calheader {
