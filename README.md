@@ -99,7 +99,7 @@ try {
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{Petsamuel}}" target="_blank">PETER SAMUEL</a>
+Made with :heart: by <a href="https://github.com/{{Petsamuel}}" target="_blank">PETERs SAMUEL</a>
 
 &#xa0;
 
